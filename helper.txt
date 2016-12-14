@@ -1,0 +1,6 @@
+Here are some terminal commands
+
+composer create-project laravel/laravel --prefer-dist - create a new laravel project
+php artisan make:model User -m - create a User model with migration
+php artisan route:list
+composer dump-autoload - to get rid of migration mistakes
