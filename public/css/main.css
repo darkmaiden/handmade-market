@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+    min-width: 435px;
+    color: purple;
+}
+
+.welcome-block{
+    padding-top: 150px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: purple 0 0 5px;
+}
+.signup-block{
+    margin-top: 15px;
+    text-align: center;
+    color: purple;
+    text-shadow: white 0 0 1px;
+    font-size: 16px;
+}
+.signin-block{
+    padding-top: 5vh;
+    text-align: center;
+    color: purple;
+    text-shadow: white 0 0 1px;
+    font-size: 16px;
+}
+.signup-block h3, .signin-block h3{
+    text-align: center;
+    color: purple;
+    text-shadow: white 0 0 3px;
+}
+.block-content{
+    background: url('../images/background.jpg') center fixed no-repeat;
+    background-size: cover;
+    min-height: 520px;
+}
+footer{
+    margin-top: 0 !important;
+}
+.welcome-buttons{
+    margin-top: 25px;
+}
+label{
+    color: purple !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: white 0 0 2px;
+}
