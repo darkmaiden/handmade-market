@@ -34,16 +34,39 @@ Route::post('/signin', [
     'as' => 'user.signin'
 ]);
 Route::get('/customer/index', [
-    'uses' => 'UserController@getCustomer',
+    'uses' => 'UserController@getCustomerIndex',
     'as' => 'customer.index',
     'middleware' => 'checkUser'
 ]);
 Route::get('/seller/index', [
-    'uses' => 'UserController@getSeller',
+    'uses' => 'UserController@getSellerIndex',
     'as' => 'seller.index',
     'middleware' => 'checkUser'
 ]);
 Route::get('/signout', [
     'uses' => 'UserController@getSignOut',
     'as' => 'signout'
+]);
+Route::post('/seller/additem', [
+    'uses' => 'UserController@postAddItem',
+    'as' => 'additem',
+    'middleware' => 'checkUser'
+]);
+
+Route::post('/pay', [
+    'uses' => 'UserController@postPay',
+    'as' => 'pay',
+    'middleware' => 'checkUser'
+]);
+
+Route::get('/rfid', 'UserController@getInfo');
+
+Route::post('/info', [
+    'uses' => 'UserController@info',
+    'as' => 'info'
+]);
+
+Route::get('/view', [
+    'uses' => 'SiteController@getView',
+    'as' => 'view'
 ]);
