@@ -7,7 +7,10 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~6.0",
+        "tymon/jwt-auth": "^0.5.9",
+        "intervention/image": "^2.3",
+        "cartalyst/stripe-laravel": "5.0.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

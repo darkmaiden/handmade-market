@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    min-height: 100px;
+    flex-direction: column;
+    color: purple;
+}
+
+.welcome-block{
+    padding-top: 17vh;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: purple 0 0 3px;
+}
+.signup-block{
+    margin-top: 15px;
+    text-align: center;
+    color: purple;
+    text-shadow: white 0 0 1px;
+    font-size: 16px;
+}
+.signin-block{
+    padding-top: 5vh;
+    text-align: center;
+    color: purple;
+    text-shadow: white 0 0 1px;
+    font-size: 16px;
+}
+.signup-block h3, .signin-block h3{
+    text-align: center;
+    color: purple;
+    text-shadow: white 0 0 3px;
+}
+.block-content{
+    background: url('../images/background.jpg') center fixed no-repeat;
+    background-size: cover;
+    min-height: 520px;
+}
+.block-authenticated{
+    background: url('../images/bg2.jpg') center fixed no-repeat;
+    background-size: cover;
+    min-height: 520px;
+    padding-top: 50px;
+}
+footer{
+    margin-top: 0 !important;
+}
+.welcome-buttons{
+    margin-top: 25px;
+}
+label{
+    color: purple !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: white 0 0 2px;
+}
+
+.tabs{
+    background: transparent;
+    color: purple;
+    margin-bottom: 25px;
+}
+.tab{
+    font-weight: bold;
+    color: purple !important;
+}
+.card-title{
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 5px purple;
+}
