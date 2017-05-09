@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="DO_NOT_UPLOAD_HERE" type="PLAIN_TEXT" />
       <mapping ext="php-old" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="twiq" type="Twig" />
