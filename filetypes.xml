@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="php-old" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="twiq" type="Twig" />
     </extensionMap>
   </component>
 </application>
